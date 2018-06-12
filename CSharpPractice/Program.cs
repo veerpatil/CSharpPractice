@@ -16,6 +16,8 @@ namespace CSharpPractice
             Console.WriteLine(DateTime.Now);
             Console.WriteLine("Added one more files");
 
+            Console.WriteLine("Hello after updates");
+
         }
     }
 }
