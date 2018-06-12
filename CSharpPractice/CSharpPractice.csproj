@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpPractice.HelloCommandLine</StartupObject>
+    <StartupObject>CSharpPractice.Grades</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,6 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GradeBook.cs" />
+    <Compile Include="Grades.cs" />
+    <Compile Include="GradeStatistics.cs" />
     <Compile Include="HelloCommandLine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
