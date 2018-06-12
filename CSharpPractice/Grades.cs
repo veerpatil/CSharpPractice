@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Speech.Synthesis;
 namespace CSharpPractice
 {
     class Grades
@@ -18,6 +18,8 @@ namespace CSharpPractice
             Console.WriteLine("Highest grades: "+ statistics.HighestGrades);
             Console.WriteLine("Lowest Grades: "+statistics.LowestGrades);
             Console.WriteLine("Average Grades: "+statistics.AverageGrades);
+            SpeechSynthesizer sys = new SpeechSynthesizer();
+            sys.Speak("Hello from veer");
             Console.Read();
 
         }

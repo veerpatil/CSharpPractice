@@ -8,6 +8,7 @@ namespace CSharpPractice
 {
     class GradeStatistics
     {
+      
         public float AverageGrades;
         public float HighestGrades;
         public float LowestGrades;
