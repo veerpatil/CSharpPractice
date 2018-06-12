@@ -12,6 +12,10 @@ namespace CSharpPractice
         {
 
             Console.WriteLine("hello World");
+
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Added one more files");
+
         }
     }
 }
