@@ -9,7 +9,7 @@ namespace CSharpPractice
     class GradeStatistics
     {
       /// <summary>
-      /// //
+      /// //added more details
       /// </summary>
         public float AverageGrades;
         public float HighestGrades;
