@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using System.Speech.Synthesis;
 namespace CSharpPractice
 {
+
+    /// <summary>
+    /// Code written by Veer
+    /// </summary>
     class Grades
     {
         static void Main(String []args)
