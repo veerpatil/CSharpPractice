@@ -10,6 +10,7 @@ namespace CSharpPractice
     {
       /// <summary>
       /// //added more details
+      /// Add to staged changes
       /// </summary>
         public float AverageGrades;
         public float HighestGrades;
